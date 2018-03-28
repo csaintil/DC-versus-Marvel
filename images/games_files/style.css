@@ -1,0 +1,79 @@
+	@import url('https://fonts.googleapis.com/css?family=Raleway');
+
+   /*//////////////////////// this is for the nav bar*/
+   ul li{
+    display:inline-block;
+    list-style: none;
+    font-size: 20px;
+font-family: 'Raleway', sans-serif;
+
+   }
+   
+   li a{
+    display:inline-block;
+    color:lightgray;
+    text-align:center;
+    padding:14px 16px;
+    text-decoration:none;
+    
+
+   }
+   nav ul{
+  list-style: none;
+  margin: 0 2px;
+  padding: 0;
+  display: flex;
+  justify-content:space-between;
+  background-color: black;
+  opacity: 0.8;
+  text-align: center;
+
+}
+
+
+
+   li a:hover, .dropdown:hover{
+    /*background-color:black;*/
+    color: #00a9d9;
+
+   }
+   .dropdown {
+   	display: inline-block;
+
+   }
+   .content {
+   	display: none;
+   	position: absolute;
+    background-color: white;
+    opacity: .7;
+   }
+.content a{
+	color:black;
+	text-decoration: none;
+	display:block;
+
+} 
+ .content a:hover{
+    background-color:black;
+    color: #00a9d9;
+    z-index:11;
+    /*opacity: .9;*/
+   }
+   .dropdown:hover .content{
+    display:block;
+    z-index:11;
+   }
+ 
+   #dcmainbcg {
+    background-image: url("../images/JL.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+   }
+  
+/*/////////////////////////////////////////////////////////////////////// This is the background image of the Marvel */
+
+#landing-marvel{
+background-image: url("../images/marvelbcg.png" );
+background-size: cover;
+background-repeat: no-repeat;
+}

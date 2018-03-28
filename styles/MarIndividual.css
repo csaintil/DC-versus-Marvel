@@ -1,0 +1,412 @@
+.bigbcg5{
+  background:url("../images/capshield.jpg");
+  font-family: 'Bangers', cursive;
+  font-size: 25px;
+  background-attachment: fixed;
+
+}
+
+
+
+.bigbcg6{
+  background:url("../images/deadsym.jpg") rgba(0,0,0,0.8);
+  font-family: 'Bangers', cursive;
+  font-size: 25px;
+  background-attachment: fixed;
+
+/*opacity: 0;*/
+}
+.bigbcg7{
+  background:url("../images/blacksym.png");
+  font-family: 'Bangers', cursive;
+  font-size: 25px;
+  background-attachment: fixed;
+
+}
+.bigbcg8{
+  background:url("../images/bigbcg8.jpeg");
+  font-family: 'Bangers', cursive;
+  font-size: 25px;
+  background-attachment: fixed;
+
+}
+.bigbcg9{
+  background:url("../images/bigbcg9.jpg"), rgba(0,0,0,0.8);
+  font-family: 'Bangers', cursive;
+  font-size: 25px;../images/
+  background-attachment: fixed;
+
+
+}
+
+/*////////////////////////////////////////////////////////////////////////////boxes for Characters Captain America*/
+
+.layout4:hover  {
+  transform: scale(.95);
+  /*color: red;*/
+  border-color: #00a9d9;
+  cursor: pointer;
+  border-color: red;
+}
+.layout4 {
+  margin:5px;
+  width:250px;
+  height:250px;
+  background:#fff;
+  border: solid black;
+  border-color: black;
+  float:left; 
+  transform: rotate(2deg);
+        font-family: 'Bangers', cursive;
+
+}
+.layout4:nth-child(1) {
+  border-width: 3px 4px 3px 5px;
+  border-radius:95% 4% 92% 5%/4% 95% 6% 95%;
+    font-family: 'Bangers', cursive;
+border-radius: 100%;
+}
+
+.layout4:nth-child(2) {
+ flex-basis: 200px;
+   border-width: 5px 3px 3px 5px;
+  border-radius:95% 4% 97% 5%/4% 94% 3% 95%;
+  height: 100px;
+       font-family: 'Bangers', cursive;
+
+
+
+}
+.layout4:nth-child(3) {
+width:350px;
+  border-width: 3px 3px 5px 5px;
+  border-radius:4% 95% 6% 95%/95% 4% 92% 5%;
+  text-align: center;
+  /*margin-right:90px;*/
+      font-family: 'Bangers', cursive;
+
+}
+.layout4:nth-child(4) {
+ border-width: 5px 3px 3px 5px;
+  border-radius:95% 4% 97% 5%/4% 94% 3% 95%;
+  /*transform: rotate(2deg);*/
+  width: 500px;
+  text-align: center;
+      font-family: 'Bangers', cursive;
+
+}
+.layout4:nth-child(5) {
+  border-width: 3px 3px 5px 5px;
+  border-radius:4% 95% 6% 95%/95% 4% 92% 5%;
+  text-align: center;
+  /*margin-left:90px;*/
+   border-width: 5px 3px 3px 5px;
+  border-radius:95% 4% 97% 5%/4% 94% 3% 95%;
+    font-family: 'Bangers', cursive;
+  width: 900px;
+}
+.layout4:nth-child(6) {
+ border-width: 5px 3px 3px 5px;
+  border-radius:95% 4% 97% 5%/4% 94% 3% 95%;
+  width: 0px;
+  /*height: -100px;*/
+  margin-left: 200px;
+      font-family: 'Bangers', cursive;
+
+}
+
+
+/* background colours */
+
+.layout4:nth-child(1) {
+  background-image: url(../images/capprofile2.jpg);
+  background-size: cover;
+    /*font-family: 'Bangers', cursive;*/
+border-radius: 100%;
+
+}
+
+.layout4:hover #nextbutton {
+  transform: scale(0.95);
+}
+
+.layout4:nth-child(2) {
+  background-image:radial-gradient(circle,#005c97
+
+,#363795);
+    
+
+}
+
+.layout4:nth-child(3) {
+  background-image:radial-gradient(circle,#005c97
+
+,#363795);
+   
+
+}
+
+.layout4:nth-child(4) {
+  background-image:radial-gradient(circle,#005c97
+
+,#363795);
+}
+.layout4:nth-child(5) {
+  background-image:radial-gradient(circle,#005c97
+
+,#363795);
+    
+
+}
+.layout4:nth-child(6) {
+  background-image:radial-gradient(circle,#005c97
+
+,#363795);
+}
+
+
+#lastlayout4 {
+  text-align: center;
+}
+
+/*//////////////////////////////////////////////////////Character DEADPOOL*/
+.layout5:hover  {
+  transform: scale(.95);
+  /*color: red;*/
+  border-color: black;
+  cursor: pointer;
+}
+.layout5 {
+  margin:5px;
+  width:250px;
+  height:250px;
+  background:#fff;
+  border: solid black;
+  border-color: white;
+  float:left; 
+  transform: rotate(2deg);
+}
+.layout5:nth-child(1) {
+  border-width: 3px 4px 3px 5px;
+  border-radius:95% 4% 92% 5%/4% 95% 6% 95%;
+    font-family: 'Bangers', cursive;
+border-radius: 100%;
+}
+
+.layout5:nth-child(2) {
+ flex-basis: 200px;
+   border-width: 5px 3px 3px 5px;
+  border-radius:95% 4% 97% 5%/4% 94% 3% 95%;
+  height: 100px;
+       font-family: 'Bangers', cursive;
+
+
+
+}
+.layout5:nth-child(3) {
+width:350px;
+  border-width: 3px 3px 5px 5px;
+  border-radius:4% 95% 6% 95%/95% 4% 92% 5%;
+  text-align: center;
+  /*margin-right:90px;*/
+      font-family: 'Bangers', cursive;
+
+}
+.layout5:nth-child(4) {
+ border-width: 5px 3px 3px 5px;
+  border-radius:95% 4% 97% 5%/4% 94% 3% 95%;
+  /*transform: rotate(2deg);*/
+  width: 500px;
+  text-align: center;
+      font-family: 'Bangers', cursive;
+
+}
+.layout5:nth-child(5) {
+  border-width: 3px 3px 5px 5px;
+  border-radius:4% 95% 6% 95%/95% 4% 92% 5%;
+  text-align: center;
+  /*margin-left:90px;*/
+   border-width: 5px 3px 3px 5px;
+  border-radius:95% 4% 97% 5%/4% 94% 3% 95%;
+    font-family: 'Bangers', cursive;
+  width: 900px;
+}
+.layout5:nth-child(6) {
+ border-width: 5px 3px 3px 5px;
+  border-radius:95% 4% 97% 5%/4% 94% 3% 95%;
+  width: 0px;
+  /*height: -100px;*/
+  margin-left: 200px;
+      font-family: 'Bangers', cursive;
+
+}
+
+
+/* background colours */
+
+.layout5:nth-child(1) {
+  background-image: url(../images/deadprofile2.jpg);
+  background-size: cover;
+    /*font-family: 'Bangers', cursive;*/
+    border-radius: 100%;
+
+
+}
+
+.layout5:hover #nextbutton {
+  transform: scale(0.95);
+}
+
+.layout5:nth-child(2) {
+  background-image:radial-gradient(circle,#870000
+
+,#190a05);
+    
+
+}
+
+.layout5:nth-child(3) {
+  background-image:radial-gradient(circle,#870000
+
+,#190a05);
+   
+
+}
+
+.layout5:nth-child(4) {
+  background-image:radial-gradient(circle,#870000
+
+,#190a05);
+}
+.layout5:nth-child(5) {
+  background-image:radial-gradient(circle,#870000
+
+,#190a05);
+    
+
+}
+.layout5:nth-child(6) {
+  background-image:radial-gradient(circle,#870000
+
+,#190a05);
+}
+
+
+#lastlayout5 {
+  text-align: center;
+}
+
+
+/*///////////////////////////////////////////////////////////Black Phanther*/
+.layout6:hover  {
+  transform: scale(.95);
+  /*color: red;*/
+  /*border-color: #00a9d9;*/
+  cursor: pointer;
+  border-color:#9a8478;
+}
+.layout6 {
+  margin:5px;
+  width:250px;
+  height:250px;
+  background:#fff;
+  border: solid black;
+  border-color: black;
+  float:left; 
+  transform: rotate(2deg);
+}
+.layout6:nth-child(1) {
+  border-width: 3px 4px 3px 5px;
+  border-radius:95% 4% 92% 5%/4% 95% 6% 95%;
+    font-family: 'Bangers', cursive;
+border-radius: 100%;
+}
+
+.layout6:nth-child(2) {
+ flex-basis: 200px;
+   border-width: 5px 3px 3px 5px;
+  border-radius:95% 4% 97% 5%/4% 94% 3% 95%;
+  height: 100px;
+       font-family: 'Bangers', cursive;
+
+
+
+}
+.layout6:nth-child(3) {
+width:350px;
+  border-width: 3px 3px 5px 5px;
+  border-radius:4% 95% 6% 95%/95% 4% 92% 5%;
+  text-align: center;
+  /*margin-right:90px;*/
+      font-family: 'Bangers', cursive;
+
+}
+.layout6:nth-child(4) {
+ border-width: 5px 3px 3px 5px;
+  border-radius:95% 4% 97% 5%/4% 94% 3% 95%;
+  /*transform: rotate(2deg);*/
+  width: 500px;
+  text-align: center;
+      font-family: 'Bangers', cursive;
+
+}
+.layout6:nth-child(5) {
+  border-width: 3px 3px 5px 5px;
+  border-radius:4% 95% 6% 95%/95% 4% 92% 5%;
+  text-align: center;
+  /*margin-left:90px;*/
+   border-width: 5px 3px 3px 5px;
+  border-radius:95% 4% 97% 5%/4% 94% 3% 95%;
+    font-family: 'Bangers', cursive;
+  width: 900px;
+}
+.layout6:nth-child(6) {
+ border-width: 5px 3px 3px 5px;
+  border-radius:95% 4% 97% 5%/4% 94% 3% 95%;
+  width: 0px;
+  /*height: -100px;*/
+  margin-left: 200px;
+      font-family: 'Bangers', cursive;
+
+}
+
+
+/* background colours */
+
+.layout6:nth-child(1) {
+  background-image: url(../images/blackprofile2.jpg);
+  background-size: cover;
+    /*font-family: 'Bangers', cursive;*/
+border-radius: 100%;
+
+}
+
+.layout6s:hover #nextbutton {
+  transform: scale(0.95);
+}
+
+.layout6:nth-child(2) {
+  background-image:radial-gradient(circle,#1e130c,#9a8478);
+    
+
+}
+
+.layout6:nth-child(3) {
+  background-image:radial-gradient(circle,#1e130c,#9a8478);}
+
+.layout6:nth-child(4) {
+  background-image:radial-gradient(circle,#1e130c,#9a8478);
+}
+.layout6:nth-child(5) {
+  background-image:radial-gradient(circle,#1e130c,#9a8478);
+    
+}
+
+.layout6:nth-child(6) {
+  background-image:radial-gradient(circle,#1e130c,#9a8478);
+}
+
+
+#lastlayout6 {
+  text-align: center;
+}

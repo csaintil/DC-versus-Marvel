@@ -1,0 +1,119 @@
+
+
+
+
+ /*Pen-specific styles */
+html, body, section {
+  height: 100%;
+}
+
+h1{
+	font-family: 'Bangers', cursive;
+font-size: 20px;
+
+}
+
+.navb {
+	z-index: 11;
+}
+
+
+div {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+
+body {
+	color:#fff;
+	text-align: center;
+	background-color: black;
+}
+
+.container {
+	display: flex;
+}
+
+.left-side {
+    background-image: url("../images/halfbat.jpg");
+	background-size: cover;
+	background-repeat: no-repeat;
+	flex: 1;
+    padding: 1rem;
+   background-position: center;
+  transition: all .2s ease-in-out;
+}
+
+.right-side {
+
+	background-image: url("../images/halfiron2.jpg");
+	background-size: cover;
+	background-repeat: no-repeat;
+	flex: 1;
+    padding: 1rem;
+    background-position: center;
+    transition: all .5s ease-in-out;
+
+}
+.right-side:hover, .left-side:hover {
+	transform: scale(0.95);
+	border-style: solid;
+	border-width: 6px;
+    color: white;
+  border-color: #00a9d9;
+   cursor: pointer;
+  /*transition: width 4s;*/
+
+}
+#right-button {
+margin-right:10%;
+color: red;
+/*font-family: 'Permanent Marker', cursive;*/
+font-family: 'Bangers', cursive;
+
+z-index: -1;
+
+}
+#right-button:hover {
+	color: #00a9d9;
+	width: 800px;
+}
+#left-button {
+z-index: -1;
+color: blue;
+opacity: 0.9;
+font-family: 'Bangers', cursive;
+/*margin-left: 35%;*/
+margin-top: 50%;
+margin-left: : 40%;
+}
+#left-button:hover {
+	color:#00a9d9;
+}
+.sides {
+	border-radius: 20px;
+	background color: blue;
+	text-decoration: none;
+	text-align: center;
+	/*display: inline-block;*/
+	font-weight: bold;
+	cursor: pointer;
+	transition: all 0.3s;
+	padding-top: 80%;
+	font-size: 50px;
+    width: 150px;
+ text-shadow: 0 2px 2px white;
+}
+body {
+  color: #fff;
+  font-family: sans-serif;
+  font-size: 1.25rem;
+  line-height: 150%;
+  text-align: center;
+  text-shadow: 0 2px 2px red;
+}
+
+
+   
+

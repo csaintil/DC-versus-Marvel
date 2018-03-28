@@ -1,0 +1,137 @@
+@import url(https://fonts.googleapis.com/css?family=Bangers);
+
+.comics-collection {
+
+float: left;
+position: relative;
+  
+}
+
+  h3{
+      color: white; 
+      /*font-family: 'Bangers', cursive;*/
+      text-align: center;
+    }
+    h3:hover {
+      color:  #00a9d9;
+      cursor: pointer;
+      transform: scale(0.95); 
+      text-align: center;
+    }
+
+
+	 
+
+
+.border {
+	border:4px solid black;
+}
+
+.border:hover {
+   transform: rotate(2deg);
+   border-color: #00a9d9;
+   cursor: pointer;
+}
+
+  .sesame {
+  position: fixed;
+  font-family: Arial;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  z-index: 999999;
+  opacity: 0;
+  -webkit-transition: opacity 400ms ease-in;
+  -moz-transition: opacity 400ms ease-in;
+  transition: opacity 400ms ease-in;
+  pointer-events: none;
+  background: rgba(0,0,0,0.8);
+
+}
+.sesame:target {
+  opacity:1;
+  pointer-events: auto;
+}
+.sesame > div {
+  text-align: center;
+  font-size: 30px;
+  width: 200px;
+  height: 200px;
+  position: relative;
+  margin: 10% auto;
+  padding: 5px 20px 13px 20px;
+  border-radius: 10px;
+  background: green;
+  background: -moz-linear-gradient(#00a9d9, #999);
+  background: -webkit-linear-gradient(#00a9d9, #999);
+  background: -o-linear-gradient(#00a9d9, #999);
+}
+.close {
+  background: #606061;
+  color: red;
+  line-height: 25px;
+  position: absolute;
+  right: -12px;
+  text-align: center;
+  top: -10px;
+  width: 24px;
+  text-decoration: none;
+  font-weight: bold;
+  -webkit-border-radius: 12px;
+  -moz-border-radius: 12px;
+  border-radius: 12px;
+  -moz-box-shadow: 1px 1px 3px #000;
+  -webkit-box-shadow: 1px 1px 3px #000;
+  box-shadow: 1px 1px 3px #000;
+}
+
+.close:hover { background: #00d9ff; }
+
+
+/*///////////////// height/ background for the marvel comics*/
+
+.Mcomics {
+	width: 328px;
+	height: 498px; 
+  margin-right: 20px;
+}
+#marvelComicsbcg {
+ background-color: rgba(0,0,0,0.8);
+
+}
+
+/*/////////////////////Color for Dc Universe Comics*/
+#comicsbody{
+margin-right: 20px;
+    background: rgba(0,0,0,0.8);
+   }   
+  /*.comics {
+margin-right: 20px;  }*/
+
+
+/*////////////////// dcgames background;*/
+#games-bcg  {
+      background:url("../images/gotham.jpg");
+ /*background-color: rgba(0,0,0,0.8);*/
+ background-size: cover;
+ background-attachment: fixed;
+
+}
+#games-bcg2 {
+  background-image: url("../images/marvel3bcg.jpg");
+  background-size: cover;
+
+}
+.dcgames  {
+  margin-right: 90px;
+}
+
+
+
+
+
+
+
+
+
